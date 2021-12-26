@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.seller
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, gradle, http-client, java, java-application, junit, kafka, logback, lombok, micronaut-build, mockito, netty-server, readme, shade, testcontainers, yaml]

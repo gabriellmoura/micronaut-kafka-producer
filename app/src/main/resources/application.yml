@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: sellers
+kafka:
+  bootstrap:
+    servers: localhost:9092
+  topic:
+    sellers: sellers
+  producers:
+    default:
+      retries: 5
+  consumers:
+    default:
+      session:
+        timeout:
+          ms: 30000

@@ -1,0 +1,6 @@
+micronaut:
+  application:
+    name: sellers
+kafka:
+  topic:
+    sellers: sellers
